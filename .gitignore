@@ -1,0 +1,59 @@
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Build directories
+backend/build/
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Test coverage directories
+backend/coverage/
+frontend/coverage/
+
+# Environment files
+backend/.env*
+frontend/.env*
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+.pnpm-debug.log*
+
+# Editor/IDE files
+.DS_Store
+.idea
+.vscode
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Vercel
+.vercel
+
+# Misc
+*.pem
+*.log
+.cache
+dist
+node_modules
